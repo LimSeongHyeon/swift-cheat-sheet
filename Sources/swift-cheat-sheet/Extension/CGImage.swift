@@ -18,14 +18,8 @@ public extension CGImage
     ///
     /// - Usage:
     /// ```swift
-    /// if let resizedImage = originalImage.resize(size: CGSize(width: 100, height: 100)) 
-    /// {
-    ///     print("Image resized successfully.")
-    /// } 
-    /// else
-    /// {
-    ///     print("Failed to resize image.")
-    /// }
+    /// if let resizedImage = originalImage.resize(size: CGSize(width: 100, height: 100)) { /* Image resized successfully. */ }
+    /// else { /* Failed to resize image. */ }
     /// ```
     func resize(size:CGSize) -> CGImage?
     {
@@ -54,11 +48,8 @@ public extension CGImage
     ///
     /// - Usage:
     /// ```swift
-    /// if let rotatedImage = originalImage.rotate(degree: 90) {
-    ///     print("Image rotated successfully.")
-    /// } else {
-    ///     print("Failed to rotate image.")
-    /// }
+    /// if let rotatedImage = originalImage.rotate(degree: 90) { /* Image rotated successfully. */ } 
+    /// else { /* Failed to rotate image. */ }
     /// ```
     ///
     /// - Note: 각도는 시계 방향으로 회전되며, 입력 각도는 도 단위입니다.
