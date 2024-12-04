@@ -1,5 +1,5 @@
 import XCTest
-@testable import swift_cheat_sheet
+@testable import SwiftCheatSheet
 
 final class swift_cheat_sheetTests: XCTestCase {
     func testExample() throws {
